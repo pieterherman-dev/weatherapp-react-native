@@ -1,5 +1,5 @@
 {
-  "name": "WeatherApp",
+  "name": "weatherapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,18 +8,19 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.8.6",
-    "react-native": "0.60.0"
+    "eslint-utils": "^1.4.2",
+    "react": "16.9.0",
+    "react-native": "0.60.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/runtime": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
     "@react-native-community/eslint-config": "^0.0.5",
-    "babel-jest": "^24.8.0",
-    "eslint": "^6.0.1",
-    "jest": "^24.8.0",
-    "metro-react-native-babel-preset": "^0.55.0",
-    "react-test-renderer": "16.8.6"
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
