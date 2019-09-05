@@ -1,12 +1,11 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'WeatherApp' do
-  # Pods for WeatherApp
+target 'weatherapp' do
+  # Pods for weatherapp
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
-  pod 'React-fishhook', :path => '../node_modules/react-native/Libraries/fishhook'
   pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
   pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
   pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
@@ -28,7 +27,7 @@ target 'WeatherApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'WeatherAppTests' do
+  target 'weatherappTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -36,10 +35,10 @@ target 'WeatherApp' do
   use_native_modules!
 end
 
-target 'WeatherApp-tvOS' do
-  # Pods for WeatherApp-tvOS
+target 'weatherapp-tvOS' do
+  # Pods for weatherapp-tvOS
 
-  target 'WeatherApp-tvOSTests' do
+  target 'weatherapp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
